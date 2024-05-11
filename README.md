@@ -1,6 +1,7 @@
 ## FENLES PLAUSIBLE ANALYTICS FORK
 
-this version removes
+This is a custom version for [FENLES](https://fenles.com) that removes the localhost header to allow having geographic information on Plausible.
+
 `request.headers.set('X-Forwarded-For', '127.0.0.1');`
 so that geomaps works as otherwise the IP sent was 127...
 
